@@ -12,11 +12,9 @@ export default defineConfig({
   themeConfig: {
     socialLinks: [
       { icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev/rspress' },
-      { icon: 'gitlab', mode: 'link', content: 'https://gitlab.com/web-infra-dev/rspress' },
       { icon: 'x', mode: 'link', content: 'https://example.com' },
-      { icon: 'bluesky', mode: 'link', content: 'https://www.linkedin.com/in/yourname' },
       { icon: 'linkedin', mode: 'link', content: 'https://www.linkedin.com/in/yourname' },
-      { icon: 'discord', mode: 'link', content: 'https://discord.gg/yourserver' },
+      { icon: 'instagram', mode: 'link', content: 'https://www.instagram.com/yourusername' },
       { icon: 'youtube', mode: 'link', content: 'https://www.youtube.com/channel/yourchannel' },
     ],
   },
