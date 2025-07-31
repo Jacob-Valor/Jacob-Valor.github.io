@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@100..900&family=Silkscreen:wght@400;700&display=swap');
+
+:root {
+  --rp-font-family-base: 'Silkscreen', cursive;
+  
+  /* Green theme variables */
+  --rp-c-brand: #4CAF50;
+  --rp-c-brand-dark: #388E3C;
+  --rp-c-brand-light: #81C784;
+  --rp-c-text: #666161;
+}
+
+body {
+  font-family: 'Silkscreen', sans-serif;
+  color: var(--rp-c-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Silkscreen', cursive;
+  color: var(--rp-c-brand-dark);
+}
+
+/* Additional green theme styles */
+a {
+  color: var(--rp-c-brand);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--rp-c-brand-dark);
+  text-decoration: underline;
+}
+
+button, .button {
+  background-color: var(--rp-c-brand);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover, .button:hover {
+  background-color: var(--rp-c-brand-dark);
+}
